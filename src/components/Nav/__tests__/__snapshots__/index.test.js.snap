@@ -11,7 +11,7 @@ exports[`Nav component renders 1`] = `
         href="/"
       >
         <span
-          aria-label="camera"
+          aria-label="beers"
           role="img"
         >
            📸

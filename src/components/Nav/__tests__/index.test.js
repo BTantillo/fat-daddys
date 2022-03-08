@@ -39,7 +39,7 @@ describe('emoji is visible', () => {
   it('renders', () => {
     const { getByLabelText } = render(<Nav />);
 
-    expect(getByLabelText('camera')).toHaveTextContent('📸');
+    expect(getByLabelText('beers')).toHaveTextContent('📸');
   });
 })
 
@@ -47,7 +47,7 @@ describe('links are visible', () => {
   it('renders', () => {
     const { getByTestId } = render(<Nav />);
 
-    expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
+    expect(getByTestId('link')).toHaveTextContent(`Fat Daddy's`);
     expect(getByTestId('about')).toHaveTextContent('About me');
   });
 
