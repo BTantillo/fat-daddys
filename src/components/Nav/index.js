@@ -19,7 +19,7 @@ function Nav(props) {
   return (
     <header className="flex-row px-1">
       <h2>
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="https://btantillo.github.io/fat-daddys/">
           <span role="img" aria-label="beers"> 🍻</span> Fat Daddy's Bar + Grille🍹
         </a>
       </h2>
